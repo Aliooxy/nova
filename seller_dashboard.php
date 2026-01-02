@@ -13,6 +13,12 @@ require_once 'views/partials/header.php';
 <h2>Seller Dashboard</h2>
 <p>Welcome, <?php echo htmlspecialchars($_SESSION["username"]); ?>!</p>
 <p>This is the seller dashboard. You can manage your products and orders here.</p>
+
+<div class="dashboard-actions">
+    <a href="/views/products/create.php" class="btn">Add New Product</a>
+    <!-- More seller actions can be added here -->
+</div>
+
 <p><a href="logout.php">Logout</a></p>
 
 <?php

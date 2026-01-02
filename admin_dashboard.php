@@ -13,6 +13,12 @@ require_once 'views/partials/header.php';
 <h2>Admin Dashboard</h2>
 <p>Welcome, <?php echo htmlspecialchars($_SESSION["username"]); ?>!</p>
 <p>This is the admin dashboard. You have full access to the system.</p>
+
+<div class="dashboard-actions">
+    <a href="/views/products/create.php" class="btn">Add New Product</a>
+    <!-- More admin actions can be added here -->
+</div>
+
 <p><a href="logout.php">Logout</a></p>
 
 <?php

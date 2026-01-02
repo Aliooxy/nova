@@ -16,6 +16,7 @@ require_once 'views/partials/header.php';
 
 <div class="dashboard-actions">
     <a href="/views/products/create.php" class="btn">Add New Product</a>
+    <a href="/views/categories/create.php" class="btn">Add New Category</a>
     <!-- More seller actions can be added here -->
 </div>
 
